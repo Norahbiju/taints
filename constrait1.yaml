@@ -7,6 +7,7 @@ spec:
     kinds:
       - apiGroups: ["apps"]
         kinds: ["Deployment"]
+---
 apiVersion: constraints.gatekeeper.sh/v1beta1
 kind: K8sMinReplicas
 metadata:

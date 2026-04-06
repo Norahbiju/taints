@@ -23,6 +23,7 @@ spec:
           input.review.object.spec.strategy.type != "RollingUpdate"
           msg := "Only RollingUpdate strategy is allowed"
         }
+---
 apiVersion: templates.gatekeeper.sh/v1beta1
 kind: ConstraintTemplate
 metadata:
